@@ -9,7 +9,7 @@ import Planet from './Planet'
 // }
 
 const fetchPlanets = async (pageParam) => {
-  const res = await fetch(`http://swapi.dev/api/planets/?page=${pageParam}`)
+  const res = await fetch(`https://swapi.dev/api/planets/?page=${pageParam}`)
   return await res.json()
 }
 

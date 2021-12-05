@@ -4,7 +4,7 @@ import Person from './Person'
 
 
 const fetchPeople = async ({ pageParam = 1 }) => {
-  const res = await fetch(`http://swapi.dev/api/people/?page=${pageParam}`)
+  const res = await fetch(`https://swapi.dev/api/people/?page=${pageParam}`)
   return await res.json()
 }
 
